@@ -1,9 +1,33 @@
 
 
 .wrapper {
-  background: blue;
+  /*background: green;
   height: 100%;
-  padding: 400px;
+  padding: 1000px;*/
+}
+
+div {
+  flex-grow: 1
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  width: 339px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+a {
+  display: inline-block;
+  width: 50px;
+  text-decoration: none;
+}
+
+.first, .second, .third, .fourth {
+  display: flex;
 }
 
 .first {
@@ -11,10 +35,22 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  opacity: 0.1;
+  background-position: center;
+  height: 400px;
 }
 
 .second {
-  background-color: pink;
-  height: 100px;
+  background-color: orange;
+  height: 400px;
+}
+
+.third {
+  background-color: lightblue;
+  height: 400px;
+}
+
+
+.fourth {
+  background-color: lavender;
+  height: 400px;
 }
