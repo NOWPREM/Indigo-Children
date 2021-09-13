@@ -92,14 +92,14 @@ a {
 
 .fifth {
 
-  background-color: grey;
+  background: linear-gradient(135deg, orange 50%, cyan);;
   height: 400px;
   margin: 0px 10px;
 }
 
 .sixth {
 
-  background-color: purple;
-  height: 400px;
+  background-color: #7979DF;
+  height: 500px;
   margin: 0px 10px;
 }
