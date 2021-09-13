@@ -14,12 +14,20 @@ html {
 .nav {
   width: auto;
   display: flex;
-  padding: 5px;
-  border: 2px solid black;
+  padding: 1px;
+  border: 2px solid white;
   justify-content: space-evenly;
   margin: 0px 10px;
-
+  resize: both;
 }
+
+.navstyle {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: large;
+   color: purple;
+   font-stretch: semi-expanded;
+}
+
 
 .navitems {
 
@@ -43,9 +51,9 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: auto;
-  height: 500px;
+  height: 1000px;
   margin: 0px 10px;
-  resize: both;
+
 }
 
 .second {
