@@ -2,6 +2,8 @@
 
 .wrapper {
 
+
+
 }
 
 
@@ -9,7 +11,7 @@ html {
   scroll-behavior: smooth;
 }
 
-nav {
+.nav {
   width: auto;
   display: flex;
   padding: 5px;
@@ -39,11 +41,11 @@ a {
 .first {
   background-image: url('assets/1.png');
   background-repeat: no-repeat;
-  /*background-attachment: fixed; */
-  background-size: cover;
-  background-position: center;
-  height: 400px;
+  background-size: contain;
+  background-position: auto;
+  height: 500px;
   margin: 0px 10px;
+  resize: both;
 }
 
 .second {
