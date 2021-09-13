@@ -33,6 +33,7 @@ a {
  .first, .second, .third, .fourth, .fifth {
   display: flex;
   flex-grow: 1;
+  scroll-behavior: smooth;
 }
 
 .first {
