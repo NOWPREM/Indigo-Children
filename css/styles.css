@@ -82,7 +82,7 @@ a {
 }
 
 .first {
-  background-image: url('assets/1.png');
+  background-image: url('../assets/1.png');
   background-repeat: no-repeat;
   background-size: 100%;
   height: auto;
