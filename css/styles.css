@@ -16,6 +16,7 @@ html {
 nav {
 
   display: flex;
+  flex-wrap: wrap;
   padding: 1px;
   border: 2px solid white;
   justify-content: space-evenly;
@@ -82,7 +83,7 @@ a {
 }
 
 .first {
-  background-image: url('../assets/1.png');
+  background-image: url('../assets/hero.png');
   background-repeat: no-repeat;
   background-size: 100%;
   height: auto;
