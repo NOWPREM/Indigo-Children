@@ -15,16 +15,41 @@
   <body>
     <!--<a name="top"></a>-->
     <div class="wrapper">
-      <div id="nav="navigation-breakpoint">
-        <nav>
+      <div id="navigation-breakpoint-hamburger hiddenMobile">
+        <div id="navbar">
           <a class="navitems" href="#page-1"><p class="navstyle"></p></a>
           <a class="navitems" href="#page-2"><p class="navstyle">Objectives</p></a>
           <a class="navitems" href="#page-3"><p class="navstyle">Ethos</p></a>
           <a class="navitems" href="#page-4"><p class="navstyle">Workshops</p></a>
           <a class="navitems" href="#page-5"><p class="navstyle">Research</p></a>
           <a class="navitems" href="#page-6"><p class="navstyle">Contact</p></a>
-        </nav>
+        </div>
       </div>
+      <div>
+
+          <nav role="navigation">
+            <div id="menuToggle">
+              <!--
+              A fake / hidden checkbox is used as click reciever,
+              so you can use the :checked selector on it.
+              -->
+              <input type="checkbox" />
+
+              <span></span>
+              <span></span>
+              <span></span>
+
+              <ul id="menu">
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Info</li></a>
+                <a href="#"><li>Contact</li></a>
+                <a href="https://google.com/" target="_blank"><li>Show me more</li></a>
+              </ul>
+            </div>
+          </nav>
+      </div>
+      <div class="hiddenDesktop"></div>
       <div class="scroll-container">
         <div class="first" id="page-1">
         </div>
