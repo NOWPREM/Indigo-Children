@@ -12,7 +12,7 @@ html {
   scroll-behavior: smooth;
 }
 
-#navbar {
+.navbar {
   background-color: green;
   display: flex;
   flex-wrap: wrap;
@@ -176,5 +176,3 @@ a {
     body{
       background-color: lightblue;
     }
-
-    
